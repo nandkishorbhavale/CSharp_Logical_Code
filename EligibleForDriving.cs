@@ -11,6 +11,8 @@ namespace CSharp_Learning
         public static void Main(string[] args) {
             DrivingAge();
             oddEven();
+            Multiplication();
+            Division();
         }
         public static void DrivingAge()
         {
@@ -38,6 +40,19 @@ namespace CSharp_Learning
                 Console.WriteLine(number + " is Odd Number.");
             }
            
+        }
+        static void Multiplication()
+        { int a = 2;
+            int b = 3;
+            int c = a + b;
+            Console.WriteLine(c + "Addition of a and b");
+        }
+        static void Division()
+        {
+            int a = 20;
+            int b = 5;
+            int c = a / b;
+            Console.WriteLine(c + "Addition of a and b");
         }
     }
 }
