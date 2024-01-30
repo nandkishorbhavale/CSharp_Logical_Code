@@ -52,7 +52,7 @@ namespace CSharp_Learning
             int a = 20;
             int b = 5;
             int c = a / b;
-            Console.WriteLine(c + "Addition of a and b");
+            Console.WriteLine(c + "Division of a and b");
         }
     }
 }
