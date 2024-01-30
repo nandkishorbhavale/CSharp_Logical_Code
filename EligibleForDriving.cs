@@ -12,6 +12,7 @@ namespace CSharp_Learning
             DrivingAge();
             oddEven();
             Multiplication();
+            Division();
         }
         public static void DrivingAge()
         {
@@ -44,6 +45,13 @@ namespace CSharp_Learning
         { int a = 2;
             int b = 3;
             int c = a + b;
+            Console.WriteLine(c + "Addition of a and b");
+        }
+        static void Division()
+        {
+            int a = 20;
+            int b = 5;
+            int c = a / b;
             Console.WriteLine(c + "Addition of a and b");
         }
     }
